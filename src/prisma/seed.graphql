@@ -1,0 +1,27 @@
+mutation {
+    coverlette: createItem(
+        data: {
+            title: "Westelm Coverlette"
+            description: "Navy blue coverlette queen size (brand new)"
+            price: 80
+            image: "https://res.cloudinary.com/dsajrhrbc/image/upload/v1554780456/sickfits/qt2ujsyxh6hdb1gqgsve.jpg"
+            largeImage: "https://res.cloudinary.com/dsajrhrbc/image/upload/c_scale,q_auto,w_1000/v1554780456/sickfits/qt2ujsyxh6hdb1gqgsve.jpg"
+        }
+    ) {
+        id
+    }
+    pillowcase: createItem(
+        data: {
+            title: "Velvet Pillow Case"
+            description: "Dark blue velvet pillow case size 20x20 inches"
+            price: 50
+            image: "https://res.cloudinary.com/dsajrhrbc/image/upload/v1555645847/sickfits/djnpvihsaqwzm31hlyvu.jpg"
+            largeImage: "https://res.cloudinary.com/dsajrhrbc/image/upload/c_scale,q_auto,w_1000/v1555645847/sickfits/djnpvihsaqwzm31hlyvu.jpg"
+        }
+    )
+    {
+        id
+    }
+
+    
+}

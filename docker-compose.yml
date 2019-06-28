@@ -9,7 +9,7 @@ services:
     env_file: variables.env
     environment:
       PRISMA_ENDPOINT: 'http://prisma:4466' #if put in env file will get error
-      FRONTEND_URL: 'http://app:8080'
+      FRONTEND_URL: 'http://localhost:8080'
     depends_on:
       - prisma
       - postgres
